@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071B22AF1642CDCB00922781 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B22AE1642CDCB00922781 /* UIKit.framework */; };
+		071B22B11642CDCB00922781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B22B01642CDCB00922781 /* Foundation.framework */; };
+		071B22B31642CDCB00922781 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B22B21642CDCB00922781 /* CoreGraphics.framework */; };
+		071B22B91642CDCB00922781 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071B22B71642CDCB00922781 /* InfoPlist.strings */; };
+		071B22BB1642CDCB00922781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B22BA1642CDCB00922781 /* main.m */; };
+		071B22BF1642CDCB00922781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B22BE1642CDCB00922781 /* AppDelegate.m */; };
+		071B22C11642CDCB00922781 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 071B22C01642CDCB00922781 /* Default.png */; };
+		071B22C31642CDCB00922781 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071B22C21642CDCB00922781 /* Default@2x.png */; };
+		071B22C51642CDCB00922781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071B22C41642CDCB00922781 /* Default-568h@2x.png */; };
+		071B22C81642CDCB00922781 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071B22C61642CDCB00922781 /* MainStoryboard.storyboard */; };
+		071B22CB1642CDCB00922781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B22CA1642CDCB00922781 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		071B22AA1642CDCB00922781 /* Haileybury MUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haileybury MUN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		071B22AE1642CDCB00922781 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		071B22B01642CDCB00922781 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		071B22B21642CDCB00922781 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		071B22B61642CDCB00922781 /* Haileybury MUN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Haileybury MUN-Info.plist"; sourceTree = "<group>"; };
+		071B22B81642CDCB00922781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		071B22BA1642CDCB00922781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		071B22BC1642CDCB00922781 /* Haileybury MUN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Haileybury MUN-Prefix.pch"; sourceTree = "<group>"; };
+		071B22BD1642CDCB00922781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		071B22BE1642CDCB00922781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		071B22C01642CDCB00922781 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		071B22C21642CDCB00922781 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		071B22C41642CDCB00922781 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		071B22C71642CDCB00922781 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		071B22C91642CDCB00922781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		071B22CA1642CDCB00922781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071B22A71642CDCB00922781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B22AF1642CDCB00922781 /* UIKit.framework in Frameworks */,
+				071B22B11642CDCB00922781 /* Foundation.framework in Frameworks */,
+				071B22B31642CDCB00922781 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071B229F1642CDCB00922781 = {
+			isa = PBXGroup;
+			children = (
+				071B22B41642CDCB00922781 /* Haileybury MUN */,
+				071B22AD1642CDCB00922781 /* Frameworks */,
+				071B22AB1642CDCB00922781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071B22AB1642CDCB00922781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071B22AA1642CDCB00922781 /* Haileybury MUN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071B22AD1642CDCB00922781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071B22AE1642CDCB00922781 /* UIKit.framework */,
+				071B22B01642CDCB00922781 /* Foundation.framework */,
+				071B22B21642CDCB00922781 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		071B22B41642CDCB00922781 /* Haileybury MUN */ = {
+			isa = PBXGroup;
+			children = (
+				071B22BD1642CDCB00922781 /* AppDelegate.h */,
+				071B22BE1642CDCB00922781 /* AppDelegate.m */,
+				071B22C61642CDCB00922781 /* MainStoryboard.storyboard */,
+				071B22C91642CDCB00922781 /* ViewController.h */,
+				071B22CA1642CDCB00922781 /* ViewController.m */,
+				071B22B51642CDCB00922781 /* Supporting Files */,
+			);
+			path = "Haileybury MUN";
+			sourceTree = "<group>";
+		};
+		071B22B51642CDCB00922781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				071B22B61642CDCB00922781 /* Haileybury MUN-Info.plist */,
+				071B22B71642CDCB00922781 /* InfoPlist.strings */,
+				071B22BA1642CDCB00922781 /* main.m */,
+				071B22BC1642CDCB00922781 /* Haileybury MUN-Prefix.pch */,
+				071B22C01642CDCB00922781 /* Default.png */,
+				071B22C21642CDCB00922781 /* Default@2x.png */,
+				071B22C41642CDCB00922781 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071B22A91642CDCB00922781 /* Haileybury MUN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071B22CE1642CDCB00922781 /* Build configuration list for PBXNativeTarget "Haileybury MUN" */;
+			buildPhases = (
+				071B22A61642CDCB00922781 /* Sources */,
+				071B22A71642CDCB00922781 /* Frameworks */,
+				071B22A81642CDCB00922781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haileybury MUN";
+			productName = "Haileybury MUN";
+			productReference = 071B22AA1642CDCB00922781 /* Haileybury MUN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071B22A11642CDCB00922781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Oliver Hirschfield";
+			};
+			buildConfigurationList = 071B22A41642CDCB00922781 /* Build configuration list for PBXProject "Haileybury MUN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 071B229F1642CDCB00922781;
+			productRefGroup = 071B22AB1642CDCB00922781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071B22A91642CDCB00922781 /* Haileybury MUN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071B22A81642CDCB00922781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B22B91642CDCB00922781 /* InfoPlist.strings in Resources */,
+				071B22C11642CDCB00922781 /* Default.png in Resources */,
+				071B22C31642CDCB00922781 /* Default@2x.png in Resources */,
+				071B22C51642CDCB00922781 /* Default-568h@2x.png in Resources */,
+				071B22C81642CDCB00922781 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071B22A61642CDCB00922781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B22BB1642CDCB00922781 /* main.m in Sources */,
+				071B22BF1642CDCB00922781 /* AppDelegate.m in Sources */,
+				071B22CB1642CDCB00922781 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		071B22B71642CDCB00922781 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071B22B81642CDCB00922781 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		071B22C61642CDCB00922781 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071B22C71642CDCB00922781 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071B22CC1642CDCB00922781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		071B22CD1642CDCB00922781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071B22CF1642CDCB00922781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Haileybury MUN/Haileybury MUN-Prefix.pch";
+				INFOPLIST_FILE = "Haileybury MUN/Haileybury MUN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		071B22D01642CDCB00922781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Haileybury MUN/Haileybury MUN-Prefix.pch";
+				INFOPLIST_FILE = "Haileybury MUN/Haileybury MUN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071B22A41642CDCB00922781 /* Build configuration list for PBXProject "Haileybury MUN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B22CC1642CDCB00922781 /* Debug */,
+				071B22CD1642CDCB00922781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071B22CE1642CDCB00922781 /* Build configuration list for PBXNativeTarget "Haileybury MUN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071B22CF1642CDCB00922781 /* Debug */,
+				071B22D01642CDCB00922781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071B22A11642CDCB00922781 /* Project object */;
+}
