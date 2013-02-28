@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+
+    IBOutlet UIWebView *page;
+    IBOutlet UIWebView *pageB;
+    IBOutlet UIWebView *PDF;
+
+    
+}
+
+@property (retain, nonatomic) IBOutlet MKMapView *mapView;
+
 
 @end
+
